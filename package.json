@@ -5,11 +5,17 @@
   "repository": "git@github.com:zoltan-nz/style-playground.git",
   "author": "Zoltan",
   "license": "MIT",
-  "devDependencies": {
-    "parcel-bundler": "^1.12.4"
-  },
   "scripts": {
     "start": "parcel src/index.html",
-    "clean": "rm -rf ./dist ./.cache"
+    "clean": "rm -rf ./dist ./.cache",
+    "format": "prettier --list-different --write '**/*.{md,html,css,scss,js,ts,jsx,tsx,json}'"
+  },
+  "dependencies": {
+    "bootstrap": "^4.4.1"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^2.0.5",
+    "sass": "^1.26.5"
   }
 }
