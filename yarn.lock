@@ -4121,6 +4121,14 @@ posthtml@^0.12.0:
     posthtml-parser "^0.4.2"
     posthtml-render "^1.2.2"
 
+posthtml@^0.13.0:
+  version "0.13.0"
+  resolved "https://registry.yarnpkg.com/posthtml/-/posthtml-0.13.0.tgz#164e9be086d32da795c6ee26e4f8f0a931e2d8d8"
+  integrity sha512-g9KDiHUJZrzeGUfzpSLJ51K/tJrl+QS/zrEEv2MoIyFZyWVGCHDNQva2MVsy4Oqy4jIFRFjNW4oFjMardOqmKQ==
+  dependencies:
+    posthtml-parser "^0.4.2"
+    posthtml-render "^1.2.2"
+
 prelude-ls@~1.1.2:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/prelude-ls/-/prelude-ls-1.1.2.tgz#21932a549f5e52ffd9a827f570e04be62a97da54"
